@@ -1,0 +1,7 @@
+{
+  "dashboard_url": "https://YOUR-SERVICE.onrender.com",
+  "sync_token": "PASTE_THE_SAME_SECRET_AS_RENDER_SYNC_TOKEN",
+  "excel_path": "C:\\production_dashboard\\Daily Production.xlsx",
+  "check_interval_seconds": 10,
+  "stable_seconds": 3
+}
