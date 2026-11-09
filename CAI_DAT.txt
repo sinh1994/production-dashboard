@@ -1,0 +1,36 @@
+HUONG DAN CHAY DASHBOARD TIEN DO SAN XUAT
+
+1. Cai Python 3 tren may tinh se dung lam may chu (neu may chua co Python).
+   Tai tu: https://www.python.org/downloads/
+   Khi cai dat, chon Add Python to PATH.
+
+2. Mo thu muc production_dashboard.
+
+3. Cai thu vien doc Excel (chi can lam mot lan):
+   - Bam thanh dia chi cua thu muc, go cmd va Enter.
+   - Nhap lenh: py -m pip install openpyxl
+
+4. Chay file START_DASHBOARD.bat.
+
+5. Tren may chu, mo Chrome va truy cap: http://localhost:8000
+
+6. De mo tren TV/ may khac cung mang LAN/Wi-Fi:
+   - Tren may chu, mo Command Prompt, go: ipconfig
+   - Tim dong IPv4 Address, vi du 192.168.1.25
+   - Tren TV/ thiet bi ket noi cung mang, mo Chrome va vao:
+     http://192.168.1.25:8000
+     (Thay bang dia chi IPv4 thuc te cua may chu.)
+   - Neu Windows Firewall hoi, cho phep ket noi tren mang Private.
+
+CAP NHAT EXCEL:
+- Giu ten file la Daily Production.xlsx.
+- Khi cap nhat bao cao, luu de vao file nay trong cung thu muc voi app.py.
+- Dashboard doc lai file moi moi 30 giay. Khong can sua HTML.
+- Khong doi ten cac cot: No., Process, Person in charge, Performance, Remain work.
+- Phan tram trong Performance: ghi dang 'Hoàn thành 80% Công việc'; ghi 'Hoàn thành' neu xong 100%.
+
+LUU Y:
+- May tinh chay Dashboard phai bat va khong tat app.py khi TV dang xem.
+- May chu va cac TV phai cung mang LAN/Wi-Fi; neu khac mang can cau hinh mang rieng.
+- Dashboard hien chua tinh tre han vi file nguon chua co ngay giao/han hoan thanh.
+- Du lieu hien thi tren TV la noi bo; khong tu dong dua len Internet.
